@@ -1,22 +1,27 @@
 {
   "name": "NavigationKit-iOS-Pod",
-  "version": "0.1.0",
-  "summary": "A short description of NavigationKit-iOS-Pod.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/louieyune/NavigationKit-iOS-Pod",
+  "version": "2.2.0",
+  "summary": "The NavigationKit-iOS-Pod for the MinuteMaps iOS SDK.",
+  "description": "This CocoaPod provides the release version of the NavigationKit for the MinuteMaps iOS SDK.",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
+  "homepage": "https://www.minuteman-llc.com/",
   "authors": {
-    "louieyune": "lyuen@jibestream.com"
+    "mattWillis": "matt.willis@minuteman-llc.com"
   },
   "source": {
-    "git": "https://github.com/louieyune/NavigationKit-iOS-Pod.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/MTS/MM-NavigationKit-iOS-Pod.git",
+    "tag": "2.2.0"
+  },
+  "dependencies": {
+    "JMapiOSSDK": [
+
+    ]
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "NavigationKit-iOS-Pod/Classes/**/*"
+  "vendored_frameworks": "NavigationKit-iOS-Pod/Frameworks/*.xcframework"
 }
